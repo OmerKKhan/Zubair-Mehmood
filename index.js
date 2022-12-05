@@ -8,17 +8,7 @@
 //Example: abcd
 
 var isPalindrome = function(s) {
-  // var x = 'abcbba'; i=0,j=5
-  //i=2,j=3
-  for (let [i,j]=[0,s.length-1]; i<j;) {
-        if (s[i]!=s[j]) {//s[i]=c,s[j]=b
-            return false
-        }
-        i++
-        j--
-    }
 
-  return true
 };
 
 
@@ -29,6 +19,6 @@ var isPalindrome = function(s) {
 // Input x=4, Expected output 4
 
 var ReverseNumber = function(x) {
- var x = 123;
+  var x = 123;
   x.
 };
